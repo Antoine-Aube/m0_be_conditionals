@@ -106,15 +106,31 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+#This should print: true
+puts "Does this dog love treats and love to play?" , loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
-
+#this should print: false
+puts "Does this love to play and go to the park?" , loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
+#This should print: true
+puts "Does this love to play or go to the park?" , loves_to_play || loves_dog_park
 
 
 # Determine if the dog loves to play and is a puppy
+puts "Does this dog love to play and is it a puppy?" , loves_to_play && age
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My final line of code evaluated to 1. This is because the age variable is assigned to an integer, rather than a boolean. It seems as though the logical operator spits out the value of the variable that is not a boolean when you compare a boolean to data type that is not a boolean. 
+
+#alernate Solution:
+if age <= 1
+    age = true
+else
+    age = false
+end 
+
+#So then we can ask again maybe...
+puts "Does this dog love to play and is it a puppy?" , loves_to_play && age
