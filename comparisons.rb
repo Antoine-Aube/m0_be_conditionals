@@ -63,21 +63,27 @@ puts "is number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: comparing if an interger of 4 is less than 9. This should print: true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: declare a variable of 'book' and assigning a value of 3. 
+# We then compare if an integer of 4 is less than the value of books. 
+#this should print: false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: declaring a variable of 'friends' and assiging a value of 6 and declaring a variable of 'siblings' and assiging a value of 32.
+#Then compare if the value of friends is greater than the value of siblings.
+#This should print: true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Declaring a variable of 'attendees' and assiging a value of 9, and declaring a variable of 'meals' and assigning a value of 8.
+#Then comparing if the value of attentees is NOT equal to the value of meals
+#This should print: true
 
 
 #-------------------
